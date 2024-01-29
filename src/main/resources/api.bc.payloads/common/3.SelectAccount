@@ -1,0 +1,15 @@
+TabBar-AccountsTab-AccountNumberSearchItem=
+TabBar-PoliciesTab-PolicyNumberSearchItem=
+TabBar-ProducersTab-ProducerNameSearchItem=
+QuickJump=
+PolicyGroup-PolicyDetailAcceleratedMenuActions-PolicyGroup_EffectiveDate-PolicyGroup_EffectiveDate_Arg=<POLICY_PERIOD>
+eventSource=PolicyGroup-PolicyInfoBar-AccountNumber_act
+eventTarget=
+paging=
+gw-util--headers=
+gw-util--treeview=
+gw-util--preferences=
+csrfToken=<CSRF_TOKEN>
+fileUploadUrl=<FILE_UPLOAD_URL>
+gw-language=en_US
+gw-locale=en_US

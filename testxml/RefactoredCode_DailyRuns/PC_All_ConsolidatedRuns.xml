@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PC_ConsolidateRun" preserve-order="true" verbose="5"
+	parallel="methods" thread-count="10">
+	<parameter name="deviceHost" value="localhost" />
+	<parameter name="devicePort" value="4444" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="reportPortal" value="Yes" />
+	<parameter name="pCWebSite"
+		value="http://172.24.135.200:8480/pc/PolicyCenter.do" />
+	<parameter name="cCWebSite"
+		value="http://3.139.188.17:8080/cc/ClaimCenter.do" />
+	<parameter name="webSite"
+		value="http://172.24.135.200:8480/pc/PolicyCenter.do" />
+	<parameter name="Excel_Path" value="GWTestdata.xlsx" />
+<listeners>
+		<listener class-name="com.aspire.guidewire.utils.EmailReport" />
+		<!-- <listener class-name="com.learningservices.utils.LiveReportListener" 
+			/> <listener class-name="com.learningservices.utils.RetryListener" /> -->
+		<listener
+			class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+	</listeners>
+	<test verbose="2" name="PC_HomeOwnersSuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_HomeOwnersSuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_GeneralLiabilitySuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_GeneralLiabilitySuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_CommercialAutoSuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_CommercialAutoSuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_InlandMarineSuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_InlandMarineSuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_WorkersCompensationSuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_WorkersCompensationSuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_BusinessOwnersSuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_BusinessOwnersSuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_CommercialPropertySuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_CommercialPropertySuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_CommercialPackageSuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_CommercialPackageSuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_PersonalAutoSuite Report"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.pc.testscripts.PC_PersonalAutoSuite"></class>
+		</classes>
+	</test>
+	<test verbose="2" name="PC_NonLob Report"><!-- Total Count = 15 -->
+		<classes>
+			<class name="com.aspire.guidewire.pc.testscripts.PC_NonLob"></class>
+		</classes>
+	</test>
+</suite>

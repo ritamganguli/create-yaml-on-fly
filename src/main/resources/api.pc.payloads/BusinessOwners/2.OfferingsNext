@@ -1,0 +1,17 @@
+TabBar-AccountTab-AccountTab_AccountNumberSearchItem=
+TabBar-PolicyTab-PolicyTab_SubmissionNumberSearchItem=
+TabBar-PolicyTab-PolicyTab_PolicyRetrievalItem=
+QuickJump=
+SubmissionWizard-OfferingScreen-OfferingSelection=Silver
+SubmissionWizard-OfferingScreen-OfferingQuestionSetsDV-QuestionSetsDV-0-QuestionSetLV-0-QuestionModalInput-BooleanRadioInput=false
+SubmissionWizard-OfferingScreen-OfferingQuestionSetsDV-QuestionSetsDV-0-QuestionSetLV-1-QuestionModalInput-BooleanRadioInput=false
+eventSource=SubmissionWizard-Next_act
+eventTarget=
+paging=
+gw-util--headers=
+gw-util--treeview=
+gw-util--preferences=
+csrfToken=<CSRF_TOKEN>
+fileUploadUrl=<FILE_UPLOAD_URL>
+gw-language=en_US
+gw-locale=en_US

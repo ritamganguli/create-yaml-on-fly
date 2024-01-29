@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CC_InlandMarineSuite" preserve-order="true" verbose="5"
+	parallel="methods" thread-count="10">  
+	<parameter name="deviceHost" value="localhost" />
+	<parameter name="devicePort" value="4444" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="platform" value="Windows 10" />
+	<parameter name="reportPortal" value="Yes" />
+	<parameter name="pcWebSite"
+		value="http://172.24.135.200:8480/pc/PolicyCenter.do"></parameter>
+	<parameter name="ccWebSite"
+		value="http://172.24.135.200:8280/cc/ClaimCenter.do" />
+	<parameter name="BCwebSite"
+		value="http://172.24.135.200:8380/bc/BillingCenter.do" />
+	<listeners>
+		<listener class-name="com.aspire.guidewire.utils.EmailReport" />
+		<listener
+			class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+	</listeners>
+	<test verbose="2" name="Report">
+		<classes>
+			<class
+				name="com.aspire.guidewire.cc.testscripts.CC_InlandMarineSuite">
+			</class>
+		</classes>
+	</test>
+</suite>

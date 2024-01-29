@@ -1,0 +1,16 @@
+TabBar-AccountTab-AccountTab_AccountNumberSearchItem=
+TabBar-PolicyTab-PolicyTab_SubmissionNumberSearchItem=
+TabBar-PolicyTab-PolicyTab_PolicyRetrievalItem=
+QuickJump=
+SubmissionWizard-SubmissionWizard_PaymentScreen-BillingAdjustmentsPanelSet-BillingPanel-BillingMethod=DirectBill
+InstallmentsPlansGroup_Radio=SubmissionWizard-SubmissionWizard_PaymentScreen-BillingAdjustmentsPanelSet-PaymentSchedulePanel-PlanInputSet-PaymentsPlanDV-PaymentsPlanInputSet-InstallmentPlan-BillingAdjustmentsInstallmentsLV-0-InstallmentPlan
+eventSource=SubmissionWizard-SubmissionWizard_PaymentScreen-JobWizardBillingToolbarButtonSet-BindOptions-BindAndIssue_act
+eventTarget=
+paging=
+gw-util--headers=
+gw-util--treeview=
+gw-util--preferences=
+csrfToken=<CSRF_TOKEN>
+fileUploadUrl=<FILE_UPLOAD_URL>
+gw-language=en_US
+gw-locale=en_US

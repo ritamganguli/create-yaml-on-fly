@@ -1,0 +1,13 @@
+TabBar-ClaimTab-ClaimTab_FindClaim=
+QuickJump=
+FNOLWizard-FNOLWizard_PickPolicyRiskUnitsScreen-PolicySummaryVehicleLV-0-VehicleSelected=on
+eventSource=FNOLWizard-Next_act
+eventTarget=
+paging=
+gw-util--headers=
+gw-util--treeview=
+gw-util--preferences=
+csrfToken=<CSRF_TOKEN>
+fileUploadUrl=<FILE_UPLOAD_URL>
+gw-language=en_US
+gw-locale=en_US

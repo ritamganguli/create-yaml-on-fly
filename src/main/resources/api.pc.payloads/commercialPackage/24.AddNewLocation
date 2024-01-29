@@ -1,0 +1,14 @@
+TabBar-AccountTab-AccountTab_AccountNumberSearchItem=
+TabBar-PolicyTab-PolicyTab_SubmissionNumberSearchItem=
+TabBar-PolicyTab-PolicyTab_PolicyRetrievalItem=
+QuickJump=
+eventSource=SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-CPWizardStepGroup-CPBuildingsScreen-CPBuildingsAndLocationsLV_tb-addLocationsTB-AddNewLocation_act
+eventTarget=
+paging=
+gw-util--headers=
+gw-util--treeview=
+gw-util--preferences=
+csrfToken=<CSRF_TOKEN>
+fileUploadUrl=<LOCATION>
+gw-language=en_US
+gw-locale=en_US

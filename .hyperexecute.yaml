@@ -1,0 +1,88 @@
+version: "0.2"
+user: vinoth.vasu
+key: yueJpzPQE7OWAzrag3Fhf43qA09QI9G7qP4x4aOYCy3IGvyTbr
+testSuites: []
+pre: ['mvn -Dmaven.repo.local=./.m2 dependency:resolve']
+preDirectives:
+    commands: ['mvn -Dmaven.repo.local=./.m2 dependency:resolve']
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+env:
+    CACHE_DIR: m2_cache_dir
+jobLabel:
+    - GW_RP_Hyperexecute
+    - PC_InlandMarineSuite
+runson: win
+autosplit: true
+concurrency: 1
+testDiscoveryResult:
+    - com.aspire.guidewire.pc.testscripts.PC_InlandMarineSuite#TC146
+globalTimeout: 150
+tunnelOpts:
+    testsPerTunnel: 10
+tunnelNames:
+    - GuidewireTunnel
+testSuiteTimeout: 150
+testSuiteStep: 150
+cacheDirectories:
+    - $CACHE_DIR
+cacheKey: '{{ checksum "pom.xml" }}'
+maxRetries: 1
+jobID: c07212dd-3b8f-476e-969d-f7f90e0eef69
+codeDirectory: guidewireTestAutomationSuite_update
+report: true
+partialReports:
+    type: html
+    location: target/surefire-reports/
+    frameworkName: testng
+    email:
+        to: []
+        metaInfo: []
+        linkValidity: 0
+runtime:
+    - language: java
+      version: "11"
+      addons: []
+      opts: {}
+framework:
+    name: maven/testng
+    flags:
+        - -Dtestngxml=PC_InlandMarineSuite
+        - -Plocal
+    discoveryFlags: []
+    discoveryType: method
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: true
+    defaultReports: false
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+    baseCommand: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+sourcePayload:
+    verifySSL: true
+collectLocalGitData: true
+dynamicAllocation: false
+appium: false
+platformConfig: null
+project:
+    id: ""
+    name: ""
+    type: ""
+meta: {}
+alwaysRunPostSteps: false

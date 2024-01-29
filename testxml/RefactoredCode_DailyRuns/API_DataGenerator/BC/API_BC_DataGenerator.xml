@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BC_DataGenerator" preserve-order="true" verbose="5"
+	parallel="methods" thread-count="1">  <!-- parallel="methods" thread-count="1" -->
+	<parameter name="deviceHost" value="localhost" />
+	<parameter name="devicePort" value="4444"></parameter>
+	<parameter name="browserName" value="chrome" />
+	<parameter name="reportPortal" value="Yes" />
+	<parameter name="pcWebSite"
+		value="http://172.24.135.200:8480/pc/PolicyCenter.do" />
+	<parameter name="ccWebSite"
+		value="http://172.24.135.200:8280/cc/ClaimCenter.do" />
+	<parameter name="bcWebSite"
+		value="http://172.24.135.200:8380/bc/BillingCenter.do" />
+	<listeners>
+		<listener class-name="com.aspire.guidewire.utils.EmailReport" />
+		<!-- <listener class-name="com.learningservices.utils.LiveReportListener" 
+			/> <listener class-name="com.learningservices.utils.RetryListener" /> -->
+		<listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+	</listeners>
+	<test verbose="2" name="CCDataGenerator"><!-- Total Count = 15 -->
+		<classes>
+			<class
+				name="com.aspire.guidewire.api.datagenerator.BCDataGenerator">
+			</class>
+		</classes>
+	</test>
+</suite>

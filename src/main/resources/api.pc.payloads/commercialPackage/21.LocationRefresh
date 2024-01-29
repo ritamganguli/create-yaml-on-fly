@@ -1,0 +1,17 @@
+TabBar-AccountTab-AccountTab_AccountNumberSearchItem=
+TabBar-PolicyTab-PolicyTab_SubmissionNumberSearchItem=
+TabBar-PolicyTab-PolicyTab_PolicyRetrievalItem=
+QuickJump=
+SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-GLWizardStepGroup-GeneralLiabilityEUScreen-GeneralLiabilityEUDV-SubmissionWizard_GL_ExposureUnitsLV-0-Location=<LOCATION>
+SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-GLWizardStepGroup-GeneralLiabilityEUScreen-GeneralLiabilityEUDV-SubmissionWizard_GL_ExposureUnitsLV-0-BasisAmount=
+eventSource=_refresh_
+eventTarget=
+pocTrigger=SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-GLWizardStepGroup-GeneralLiabilityEUScreen-GeneralLiabilityEUDV-SubmissionWizard_GL_ExposureUnitsLV-0-Location
+paging=
+gw-util--headers=
+gw-util--treeview=
+gw-util--preferences=
+csrfToken=<CSRF_TOKEN>
+fileUploadUrl=<FILE_UPLOAD_URL>
+gw-language=en_US
+gw-locale=en_US

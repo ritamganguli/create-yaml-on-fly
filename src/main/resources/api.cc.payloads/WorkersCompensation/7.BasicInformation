@@ -1,0 +1,17 @@
+TabBar-ClaimTab-ClaimTab_FindClaim=
+QuickJump=
+FNOLWizard-FullWizardStepSet-FNOLWizard_BasicInfoScreen-Claim_LocationCode=
+FNOLWizard-FullWizardStepSet-FNOLWizard_BasicInfoScreen-ReportedBy_Name=<CLAIMANT_NAME>
+FNOLWizard-FullWizardStepSet-FNOLWizard_BasicInfoScreen-Claim_ReportedByType=self
+FNOLWizard-FullWizardStepSet-FNOLWizard_BasicInfoScreen-MainContactChoice=true
+FNOLWizard-FullWizardStepSet-FNOLWizard_BasicInfoScreen-Claimant_Name=<CLAIMANT_NAME>
+eventSource=FNOLWizard-Next_act
+eventTarget=
+paging=
+gw-util--headers=
+gw-util--treeview=
+gw-util--preferences=
+csrfToken=<CSRF_TOKEN>
+fileUploadUrl=<FILE_UPLOAD_URL>
+gw-language=en_US
+gw-locale=en_US

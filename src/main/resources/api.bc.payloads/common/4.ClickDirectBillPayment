@@ -1,0 +1,15 @@
+TabBar-AccountsTab-AccountNumberSearchItem=
+TabBar-PoliciesTab-PolicyNumberSearchItem=
+TabBar-ProducersTab-ProducerNameSearchItem=
+QuickJump=
+AccountSummary-AccountSummaryScreen-AccountPolicyPeriodsLV-PolicyPeriodFilter=StandardBeanFilter%2FOpen%2FCanceled%2FReinstated
+eventSource=AccountGroup-AccountDetailMenuActions-AccountDetailMenuActions_Payments-AccountDetailMenuActions_NewDirectBillPayment_act
+eventTarget=
+paging=
+gw-util--headers=
+gw-util--treeview=
+gw-util--preferences=
+csrfToken=<CSRF_TOKEN>
+fileUploadUrl=<FILE_UPLOAD_URL>
+gw-language=en_US
+gw-locale=en_US
