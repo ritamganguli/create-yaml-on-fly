@@ -57,3 +57,4 @@ jobLabel: [GW_RP_Hyperexecute, {suite_name}]
 
 with open("ritam.yaml", "w") as file:
     file.write(config)
+print("File is generated -----------------------------------------------------------------------------------")
